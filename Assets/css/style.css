@@ -114,12 +114,6 @@ a.nav-link {
 	margin-left: 25%;
 }
 
-.circle {
-	border-radius: 50%;
-	border: 5px solid black;
-	height: 170px;
-}
-
 .product-list {
 	background-color: #ece3a2;
 	border-radius: 4%;
@@ -249,7 +243,7 @@ footer {
 } */
 
 .welcome-btn {
-	width: 185px;
+	/* width: 185px; */
 }
 
 #landing {
@@ -273,3 +267,46 @@ footer {
 /* .fixed-top{
 
 } */
+
+#ask-btn {
+	width: 279px;
+}
+
+.contact-col {
+	margin-bottom: 1rem;
+}
+
+.circle:hover {
+	background-color: #7f8c33;
+	cursor: pointer;
+}
+
+.circle-text {
+	/* margin-top: 50%; */
+}
+
+.circle {
+	border-radius: 50%;
+	border: 5px solid black;
+	height: 170px;
+	padding: 5%;
+}
+
+.circle-row {
+	margin-bottom: 10px;
+}
+
+.side-arrow-icon {
+	font-size: 3em;
+	margin-top: 200%;
+}
+
+.down-arrow-icon {
+	font-size: 3em;
+	margin-left: 40%;
+	margin-top: 17%;
+}
+
+.down-arrow-row {
+	height: 75px;
+}
