@@ -26,6 +26,10 @@ a.nav-link {
 	color: #fff !important;
 }
 
+li.nav-item:hover {
+	background-color: #e3d778 !important;
+}
+
 /* .welcome-image {
 	background-image: url("../images/3.jpg");
 	background-position: center;
@@ -85,9 +89,10 @@ a.nav-link {
 	color: #fff;
 	border-radius: 5px;
 	padding: 14px;
-	padding-top: 80px;
-	font-size: 18.5px;
-	height: 634px;
+	/* padding-top: 80px; */
+	font-size: 16.5px;
+	margin-bottom: 145px;
+	height: 100%;
 }
 
 .contact-text {
@@ -230,7 +235,7 @@ footer {
 }
 
 .btn-pricing {
-	margin-top: 15px;
+	/* margin-top: 15px; */
 }
 
 .row-center-btn {
@@ -247,10 +252,11 @@ footer {
 .welcome-btn {
 	margin-bottom: 46px;
 	font-size: 18.5px;
+	width: 249.55px;
 }
 
 #landing {
-	margin-top: 90px;
+	margin-top: 110px;
 }
 
 #about,
@@ -271,10 +277,6 @@ footer {
 
 } */
 
-#ask-btn {
-	width: 249.55px;
-}
-
 .contact-col {
 	margin-bottom: 1rem;
 }
@@ -290,9 +292,10 @@ footer {
 
 .circle {
 	border-radius: 50%;
-	border: 2px solid black;
-	height: 210px;
+	border: 2px solid #a5c758;
+	/* height: 234px; */
 	padding: 5%;
+	aspect-ratio: 1;
 }
 
 .circle-row {
@@ -301,7 +304,7 @@ footer {
 
 .side-arrow-icon {
 	font-size: 3em;
-	margin-top: 260%;
+	margin-top: 108px;
 }
 
 .down-arrow-icon {
@@ -349,7 +352,7 @@ footer {
 }
 
 .welcome-btn-col {
-	margin-top: 360px;
+	margin-top: 210px;
 }
 
 .btn-contact {
@@ -363,4 +366,42 @@ footer {
 
 .top-icon-col {
 	margin-bottom: 6px;
+}
+
+.welcome-row {
+	margin-top: 85px;
+}
+
+.info-text {
+	color: #fff;
+}
+
+.bottom-pricing-row {
+	margin-top: 65px;
+	margin-bottom: -81px;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.contact-list {
+	padding-left: 0;
+}
+
+.contact-info-text {
+	color: #fff;
+	margin-top: 49px;
+	margin-bottom: -34px;
+}
+
+#gift-image {
+	width: 100%;
+	margin-top: -100px;
+	cursor: pointer;
+}
+
+#gift-text {
+	position: relative;
 }
