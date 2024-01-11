@@ -239,12 +239,13 @@ footer {
 }
 
 .btn-product {
-	background: #7f8c33;
+	background-color: #ece3a2;
+	width: 249.55px;
 	margin-top: 40px;
 }
 
 .btn-product:hover {
-	background: #ece3a2;
+	background-color: #a5c658;
 }
 
 .row-center-btn {
