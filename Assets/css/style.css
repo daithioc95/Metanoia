@@ -1,3 +1,19 @@
+@font-face {
+	font-family: "HandilPro-Medium";
+	src: url("../fonts/HandilPro-Medium.otf") format("opentype");
+	/* Include other font formats for better compatibility */
+}
+
+@font-face {
+	font-family: "PhlattGrotesk-Regular";
+	src: url("../fonts/PhlattGrotesk-Regular.otf") format("opentype");
+	/* Include other font formats for better compatibility */
+}
+
+body {
+	font-family: "PhlattGrotesk-Regular", sans-serif;
+}
+
 nav {
 	background-color: #7f8c33;
 }
@@ -260,6 +276,12 @@ footer {
 } */
 
 .welcome-btn {
+	/* margin-bottom: 46px; */
+	font-size: 18.5px;
+	width: 249.55px;
+}
+
+.first-welcome-btn {
 	margin-bottom: 46px;
 	font-size: 18.5px;
 	width: 249.55px;
@@ -423,4 +445,8 @@ li {
 
 #gift-text {
 	position: relative;
+}
+
+.terms-list {
+	margin-bottom: 0;
 }
