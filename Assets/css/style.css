@@ -383,8 +383,18 @@ footer {
 	height: auto;
 }
 
-.welcome-btn-col {
-	margin-top: 210px;
+/* Media query for screens 1280px or bigger */
+@media only screen and (min-width: 1280px) {
+	.welcome-btn-col {
+		margin-top: 210px;
+	}
+}
+
+/* Media query for screens 1280px or smaller */
+@media only screen and (max-width: 1280px) {
+	.welcome-btn-col {
+		margin-top: 250px;
+	}
 }
 
 .btn-contact {
